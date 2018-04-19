@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>AD_UNIT_ID_FOR_BANNER_TEST</key>
+	<string>ca-app-pub-3940256099942544/2934735716</string>
+	<key>AD_UNIT_ID_FOR_INTERSTITIAL_TEST</key>
+	<string>ca-app-pub-3940256099942544/4411468910</string>
+	<key>CLIENT_ID</key>
+	<string>1005616634473-g8q5q9nv8hidk0lk80oouh2ennn06eio.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.1005616634473-g8q5q9nv8hidk0lk80oouh2ennn06eio</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCzhczh5bYrUj4vI4dcIGb11kwfCDv7lpA</string>
+	<key>GCM_SENDER_ID</key>
+	<string>1005616634473</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.ecoihub.mani.IhubMQTTChat</string>
+	<key>PROJECT_ID</key>
+	<string>ihubmqttchat</string>
+	<key>STORAGE_BUCKET</key>
+	<string>ihubmqttchat.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<true></true>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<false></false>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:1005616634473:ios:59763ce086d127fc</string>
+	<key>DATABASE_URL</key>
+	<string>https://ihubmqttchat.firebaseio.com</string>
+</dict>
+</plist>

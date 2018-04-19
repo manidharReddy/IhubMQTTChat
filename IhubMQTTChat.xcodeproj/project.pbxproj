@@ -7,21 +7,81 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3808384820415E31001ECC6E /* IHUBMessagesTableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3808384720415E30001ECC6E /* IHUBMessagesTableView.swift */; };
+		383EE0D420383183006CA20C /* IHUBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383EE0D320383182006CA20C /* IHUBTabBarController.swift */; };
+		383EE0D620383508006CA20C /* IHUBChatMessagesVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383EE0D520383508006CA20C /* IHUBChatMessagesVC.swift */; };
+		383EE0D820383A6C006CA20C /* IHUBChatMessagesCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 383EE0D720383A6C006CA20C /* IHUBChatMessagesCell.swift */; };
+		38434F1A203AC36A003ECB98 /* RecieverMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38434F19203AC36A003ECB98 /* RecieverMessage.swift */; };
+		3847B5FF202C39B70043BF9B /* IHUBLoginResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847B5FE202C39B70043BF9B /* IHUBLoginResponse.swift */; };
+		3847B601202C3A160043BF9B /* IHUBLoginRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847B600202C3A160043BF9B /* IHUBLoginRequest.swift */; };
+		3847B605202C547A0043BF9B /* APIErrorMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3847B604202C547A0043BF9B /* APIErrorMessage.swift */; };
+		3848467D2043ED7600575617 /* PushKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3848467C2043ED7500575617 /* PushKit.framework */; };
+		3848467F2043ED8900575617 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3848467E2043ED8900575617 /* UserNotifications.framework */; };
+		384FA9AA2032C42B003F0B70 /* MQTTChatManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384FA9A92032C42B003F0B70 /* MQTTChatManager.swift */; };
 		385FB708202435B600515C28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FB707202435B600515C28 /* AppDelegate.swift */; };
-		385FB70A202435B600515C28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 385FB709202435B600515C28 /* ViewController.swift */; };
 		385FB70D202435B600515C28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385FB70B202435B600515C28 /* Main.storyboard */; };
 		385FB70F202435B600515C28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 385FB70E202435B600515C28 /* Assets.xcassets */; };
 		385FB712202435B600515C28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 385FB710202435B600515C28 /* LaunchScreen.storyboard */; };
+		3864094320401B65000B183A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3864094220401B64000B183A /* GoogleService-Info.plist */; };
+		3864094520402247000B183A /* FirebaseManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3864094420402247000B183A /* FirebaseManager.swift */; };
+		3867B05220318F1100161985 /* VCCells.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867B05120318F1100161985 /* VCCells.swift */; };
+		3867B05420318F7D00161985 /* Helper Files.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867B05320318F7D00161985 /* Helper Files.swift */; };
+		3867B05620318F8C00161985 /* ChatVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867B05520318F8C00161985 /* ChatVC.swift */; };
+		3867B0582031978100161985 /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3867B0572031978000161985 /* Message.swift */; };
+		386AD60320298C6C00FD7458 /* IHUBLoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60220298C6C00FD7458 /* IHUBLoginVC.swift */; };
+		386AD60620298EFF00FD7458 /* IHUBUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60520298EFF00FD7458 /* IHUBUser.swift */; };
+		386AD60820298F5600FD7458 /* APIConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60720298F5600FD7458 /* APIConstants.swift */; };
+		386AD60B20298F6900FD7458 /* APIManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60A20298F6900FD7458 /* APIManager.swift */; };
+		386AD60D2029910400FD7458 /* UserManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60C2029910400FD7458 /* UserManager.swift */; };
+		386AD60F2029B7C800FD7458 /* TypeConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD60E2029B7C800FD7458 /* TypeConstants.swift */; };
+		386AD6112029C16B00FD7458 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 386AD6102029C16A00FD7458 /* ViewController.swift */; };
+		388AD1162036B67300515CE5 /* IHUBLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AD1152036B67300515CE5 /* IHUBLoader.swift */; };
+		388AD1182036DDF900515CE5 /* IHUBChatUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 388AD1172036DDF900515CE5 /* IHUBChatUsers.swift */; };
+		38BC7E7A202852F40097BD1D /* IHUBMQTTClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 384E658320284FE600ED7025 /* IHUBMQTTClient.swift */; };
+		38D6DCAB20359AD20012C602 /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D6DCAA20359AD10012C602 /* APIError.swift */; };
+		4ED4AAC7AFABB2B6E568E0AC /* Pods_IhubMQTTChat.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CC97E2F5EE78048814AA337D /* Pods_IhubMQTTChat.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3808384720415E30001ECC6E /* IHUBMessagesTableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBMessagesTableView.swift; sourceTree = "<group>"; };
+		383EE0D320383182006CA20C /* IHUBTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBTabBarController.swift; sourceTree = "<group>"; };
+		383EE0D520383508006CA20C /* IHUBChatMessagesVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBChatMessagesVC.swift; sourceTree = "<group>"; };
+		383EE0D720383A6C006CA20C /* IHUBChatMessagesCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBChatMessagesCell.swift; sourceTree = "<group>"; };
+		38434F19203AC36A003ECB98 /* RecieverMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecieverMessage.swift; sourceTree = "<group>"; };
+		3847B5FE202C39B70043BF9B /* IHUBLoginResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBLoginResponse.swift; sourceTree = "<group>"; };
+		3847B600202C3A160043BF9B /* IHUBLoginRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBLoginRequest.swift; sourceTree = "<group>"; };
+		3847B604202C547A0043BF9B /* APIErrorMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIErrorMessage.swift; sourceTree = "<group>"; };
+		3848467C2043ED7500575617 /* PushKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PushKit.framework; path = System/Library/Frameworks/PushKit.framework; sourceTree = SDKROOT; };
+		3848467E2043ED8900575617 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		384E658320284FE600ED7025 /* IHUBMQTTClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBMQTTClient.swift; sourceTree = "<group>"; };
+		384FA9A92032C42B003F0B70 /* MQTTChatManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MQTTChatManager.swift; sourceTree = "<group>"; };
 		385FB704202435B600515C28 /* IhubMQTTChat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IhubMQTTChat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		385FB707202435B600515C28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		385FB709202435B600515C28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		385FB70C202435B600515C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		385FB70E202435B600515C28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		385FB711202435B600515C28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		385FB713202435B600515C28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3864094120400EAD000B183A /* IhubMQTTChat.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = IhubMQTTChat.entitlements; sourceTree = "<group>"; };
+		3864094220401B64000B183A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		3864094420402247000B183A /* FirebaseManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseManager.swift; sourceTree = "<group>"; };
+		3867B05120318F1100161985 /* VCCells.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = VCCells.swift; sourceTree = "<group>"; };
+		3867B05320318F7D00161985 /* Helper Files.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Helper Files.swift"; sourceTree = "<group>"; };
+		3867B05520318F8C00161985 /* ChatVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ChatVC.swift; sourceTree = "<group>"; };
+		3867B0572031978000161985 /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		386AD5FF202889CF00FD7458 /* IhubMQTTChat-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "IhubMQTTChat-Bridging-Header.h"; sourceTree = "<group>"; };
+		386AD60220298C6C00FD7458 /* IHUBLoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBLoginVC.swift; sourceTree = "<group>"; };
+		386AD60520298EFF00FD7458 /* IHUBUser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBUser.swift; sourceTree = "<group>"; };
+		386AD60720298F5600FD7458 /* APIConstants.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIConstants.swift; sourceTree = "<group>"; };
+		386AD60A20298F6900FD7458 /* APIManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIManager.swift; sourceTree = "<group>"; };
+		386AD60C2029910400FD7458 /* UserManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserManager.swift; sourceTree = "<group>"; };
+		386AD60E2029B7C800FD7458 /* TypeConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TypeConstants.swift; sourceTree = "<group>"; };
+		386AD6102029C16A00FD7458 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		388AD1152036B67300515CE5 /* IHUBLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBLoader.swift; sourceTree = "<group>"; };
+		388AD1172036DDF900515CE5 /* IHUBChatUsers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IHUBChatUsers.swift; sourceTree = "<group>"; };
+		38D6DCAA20359AD10012C602 /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
+		4348789624E102247710D3CC /* Pods-IhubMQTTChat.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IhubMQTTChat.release.xcconfig"; path = "Pods/Target Support Files/Pods-IhubMQTTChat/Pods-IhubMQTTChat.release.xcconfig"; sourceTree = "<group>"; };
+		45D84F5CD581C6EE2422009D /* Pods-IhubMQTTChat.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-IhubMQTTChat.debug.xcconfig"; path = "Pods/Target Support Files/Pods-IhubMQTTChat/Pods-IhubMQTTChat.debug.xcconfig"; sourceTree = "<group>"; };
+		CC97E2F5EE78048814AA337D /* Pods_IhubMQTTChat.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IhubMQTTChat.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +89,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3848467F2043ED8900575617 /* UserNotifications.framework in Frameworks */,
+				3848467D2043ED7600575617 /* PushKit.framework in Frameworks */,
+				4ED4AAC7AFABB2B6E568E0AC /* Pods_IhubMQTTChat.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		24B239194F92EA6CB90005D6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3848467E2043ED8900575617 /* UserNotifications.framework */,
+				3848467C2043ED7500575617 /* PushKit.framework */,
+				CC97E2F5EE78048814AA337D /* Pods_IhubMQTTChat.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3847B5FC202C396D0043BF9B /* Request Model */ = {
+			isa = PBXGroup;
+			children = (
+				3847B600202C3A160043BF9B /* IHUBLoginRequest.swift */,
+			);
+			path = "Request Model";
+			sourceTree = "<group>";
+		};
+		3847B5FD202C39810043BF9B /* Response Model */ = {
+			isa = PBXGroup;
+			children = (
+				3847B5FE202C39B70043BF9B /* IHUBLoginResponse.swift */,
+			);
+			path = "Response Model";
+			sourceTree = "<group>";
+		};
 		385FB6FB202435B500515C28 = {
 			isa = PBXGroup;
 			children = (
 				385FB706202435B600515C28 /* IhubMQTTChat */,
 				385FB705202435B600515C28 /* Products */,
+				C9B93C54AD2FCD3B73C6C589 /* Pods */,
+				24B239194F92EA6CB90005D6 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +145,82 @@
 		385FB706202435B600515C28 /* IhubMQTTChat */ = {
 			isa = PBXGroup;
 			children = (
+				3864094120400EAD000B183A /* IhubMQTTChat.entitlements */,
+				388AD1142036B61E00515CE5 /* ProgressLoader */,
+				3867B05020318EFE00161985 /* ChatCells */,
+				386AD60920298F6900FD7458 /* UtilityManager */,
+				386AD60420298EE600FD7458 /* Model */,
 				385FB707202435B600515C28 /* AppDelegate.swift */,
-				385FB709202435B600515C28 /* ViewController.swift */,
+				384E658320284FE600ED7025 /* IHUBMQTTClient.swift */,
+				386AD6102029C16A00FD7458 /* ViewController.swift */,
+				386AD5FF202889CF00FD7458 /* IhubMQTTChat-Bridging-Header.h */,
+				386AD60220298C6C00FD7458 /* IHUBLoginVC.swift */,
+				3867B05520318F8C00161985 /* ChatVC.swift */,
+				386AD60E2029B7C800FD7458 /* TypeConstants.swift */,
 				385FB70B202435B600515C28 /* Main.storyboard */,
+				386AD60720298F5600FD7458 /* APIConstants.swift */,
 				385FB70E202435B600515C28 /* Assets.xcassets */,
 				385FB710202435B600515C28 /* LaunchScreen.storyboard */,
 				385FB713202435B600515C28 /* Info.plist */,
+				3864094220401B64000B183A /* GoogleService-Info.plist */,
+				38D6DCAA20359AD10012C602 /* APIError.swift */,
+				388AD1172036DDF900515CE5 /* IHUBChatUsers.swift */,
+				383EE0D320383182006CA20C /* IHUBTabBarController.swift */,
+				383EE0D520383508006CA20C /* IHUBChatMessagesVC.swift */,
+				383EE0D720383A6C006CA20C /* IHUBChatMessagesCell.swift */,
+				3808384720415E30001ECC6E /* IHUBMessagesTableView.swift */,
 			);
 			path = IhubMQTTChat;
+			sourceTree = "<group>";
+		};
+		3867B05020318EFE00161985 /* ChatCells */ = {
+			isa = PBXGroup;
+			children = (
+				3867B05320318F7D00161985 /* Helper Files.swift */,
+				3867B05120318F1100161985 /* VCCells.swift */,
+			);
+			path = ChatCells;
+			sourceTree = "<group>";
+		};
+		386AD60420298EE600FD7458 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3847B5FD202C39810043BF9B /* Response Model */,
+				3847B5FC202C396D0043BF9B /* Request Model */,
+				386AD60520298EFF00FD7458 /* IHUBUser.swift */,
+				3847B604202C547A0043BF9B /* APIErrorMessage.swift */,
+				3867B0572031978000161985 /* Message.swift */,
+				38434F19203AC36A003ECB98 /* RecieverMessage.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		386AD60920298F6900FD7458 /* UtilityManager */ = {
+			isa = PBXGroup;
+			children = (
+				386AD60A20298F6900FD7458 /* APIManager.swift */,
+				386AD60C2029910400FD7458 /* UserManager.swift */,
+				384FA9A92032C42B003F0B70 /* MQTTChatManager.swift */,
+				3864094420402247000B183A /* FirebaseManager.swift */,
+			);
+			path = UtilityManager;
+			sourceTree = "<group>";
+		};
+		388AD1142036B61E00515CE5 /* ProgressLoader */ = {
+			isa = PBXGroup;
+			children = (
+				388AD1152036B67300515CE5 /* IHUBLoader.swift */,
+			);
+			path = ProgressLoader;
+			sourceTree = "<group>";
+		};
+		C9B93C54AD2FCD3B73C6C589 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45D84F5CD581C6EE2422009D /* Pods-IhubMQTTChat.debug.xcconfig */,
+				4348789624E102247710D3CC /* Pods-IhubMQTTChat.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +230,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 385FB716202435B600515C28 /* Build configuration list for PBXNativeTarget "IhubMQTTChat" */;
 			buildPhases = (
+				5D89923E3FFC4B0A0150AC04 /* [CP] Check Pods Manifest.lock */,
 				385FB700202435B600515C28 /* Sources */,
 				385FB701202435B600515C28 /* Frameworks */,
 				385FB702202435B600515C28 /* Resources */,
+				24AED767E9904B4665346475 /* [CP] Embed Pods Frameworks */,
+				C1C9E199D13A3FC4A68BDEB5 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -97,6 +259,14 @@
 					385FB703202435B600515C28 = {
 						CreatedOnToolsVersion = 9.0.1;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 0;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -124,6 +294,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				385FB712202435B600515C28 /* LaunchScreen.storyboard in Resources */,
+				3864094320401B65000B183A /* GoogleService-Info.plist in Resources */,
 				385FB70F202435B600515C28 /* Assets.xcassets in Resources */,
 				385FB70D202435B600515C28 /* Main.storyboard in Resources */,
 			);
@@ -131,13 +302,125 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		24AED767E9904B4665346475 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-IhubMQTTChat/Pods-IhubMQTTChat-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/CoreStore/CoreStore.framework",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleToolboxForMac/GoogleToolboxForMac.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFInternationalization/MDFInternationalization.framework",
+				"${BUILT_PRODUCTS_DIR}/MDFTextAccessibility/MDFTextAccessibility.framework",
+				"${BUILT_PRODUCTS_DIR}/Material/Material.framework",
+				"${BUILT_PRODUCTS_DIR}/MaterialComponents/MaterialComponents.framework",
+				"${BUILT_PRODUCTS_DIR}/Motion/Motion.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionAnimator/MotionAnimator.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionInterchange/MotionInterchange.framework",
+				"${BUILT_PRODUCTS_DIR}/MotionTransitioning/MotionTransitioning.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/Protobuf/Protobuf.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftMQTT/SwiftMQTT.framework",
+				"${BUILT_PRODUCTS_DIR}/leveldb-library/leveldb.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/CoreStore.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleToolboxForMac.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFInternationalization.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MDFTextAccessibility.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Material.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MaterialComponents.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Motion.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionAnimator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionInterchange.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/MotionTransitioning.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Protobuf.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftMQTT.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/leveldb.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IhubMQTTChat/Pods-IhubMQTTChat-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5D89923E3FFC4B0A0150AC04 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-IhubMQTTChat-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C1C9E199D13A3FC4A68BDEB5 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-IhubMQTTChat/Pods-IhubMQTTChat-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		385FB700202435B600515C28 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				385FB70A202435B600515C28 /* ViewController.swift in Sources */,
+				386AD60620298EFF00FD7458 /* IHUBUser.swift in Sources */,
+				3847B605202C547A0043BF9B /* APIErrorMessage.swift in Sources */,
+				386AD60820298F5600FD7458 /* APIConstants.swift in Sources */,
 				385FB708202435B600515C28 /* AppDelegate.swift in Sources */,
+				383EE0D420383183006CA20C /* IHUBTabBarController.swift in Sources */,
+				3867B05420318F7D00161985 /* Helper Files.swift in Sources */,
+				3867B05220318F1100161985 /* VCCells.swift in Sources */,
+				386AD6112029C16B00FD7458 /* ViewController.swift in Sources */,
+				386AD60F2029B7C800FD7458 /* TypeConstants.swift in Sources */,
+				3847B601202C3A160043BF9B /* IHUBLoginRequest.swift in Sources */,
+				38434F1A203AC36A003ECB98 /* RecieverMessage.swift in Sources */,
+				3867B05620318F8C00161985 /* ChatVC.swift in Sources */,
+				386AD60320298C6C00FD7458 /* IHUBLoginVC.swift in Sources */,
+				383EE0D820383A6C006CA20C /* IHUBChatMessagesCell.swift in Sources */,
+				383EE0D620383508006CA20C /* IHUBChatMessagesVC.swift in Sources */,
+				3847B5FF202C39B70043BF9B /* IHUBLoginResponse.swift in Sources */,
+				38BC7E7A202852F40097BD1D /* IHUBMQTTClient.swift in Sources */,
+				3864094520402247000B183A /* FirebaseManager.swift in Sources */,
+				384FA9AA2032C42B003F0B70 /* MQTTChatManager.swift in Sources */,
+				3867B0582031978100161985 /* Message.swift in Sources */,
+				386AD60D2029910400FD7458 /* UserManager.swift in Sources */,
+				3808384820415E31001ECC6E /* IHUBMessagesTableView.swift in Sources */,
+				388AD1182036DDF900515CE5 /* IHUBChatUsers.swift in Sources */,
+				388AD1162036B67300515CE5 /* IHUBLoader.swift in Sources */,
+				386AD60B20298F6900FD7458 /* APIManager.swift in Sources */,
+				38D6DCAB20359AD20012C602 /* APIError.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,14 +555,19 @@
 		};
 		385FB717202435B600515C28 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45D84F5CD581C6EE2422009D /* Pods-IhubMQTTChat.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IhubMQTTChat/IhubMQTTChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTE566JDHF;
+				DEVELOPMENT_TEAM = 2LUK926E65;
 				INFOPLIST_FILE = IhubMQTTChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.IhubMQTTChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.IhubMQTTChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihub/Desktop/IhubMQTTChat/IhubMQTTChat/IhubMQTTChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -287,14 +575,19 @@
 		};
 		385FB718202435B600515C28 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4348789624E102247710D3CC /* Pods-IhubMQTTChat.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = IhubMQTTChat/IhubMQTTChat.entitlements;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = VTE566JDHF;
+				DEVELOPMENT_TEAM = 2LUK926E65;
 				INFOPLIST_FILE = IhubMQTTChat/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.IhubMQTTChat;
+				PRODUCT_BUNDLE_IDENTIFIER = com.ecoihub.mani.IhubMQTTChat;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "/Users/ihub/Desktop/IhubMQTTChat/IhubMQTTChat/IhubMQTTChat-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
