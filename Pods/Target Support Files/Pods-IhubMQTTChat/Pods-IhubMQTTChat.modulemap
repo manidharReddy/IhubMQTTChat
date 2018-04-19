@@ -1,0 +1,6 @@
+framework module Pods_IhubMQTTChat {
+  umbrella header "Pods-IhubMQTTChat-umbrella.h"
+
+  export *
+  module * { export * }
+}

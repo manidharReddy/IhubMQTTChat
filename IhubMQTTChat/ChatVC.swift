@@ -68,6 +68,7 @@ class ChatVC:UIViewController,MQTTSessionDelegate, UITableViewDelegate,UITableVi
         self.tableView.scrollIndicatorInsets.bottom = self.barHeight
         self.locationManager.delegate = self
     }
+    
     /*
     //Downloads messages
     func fetchData() {
